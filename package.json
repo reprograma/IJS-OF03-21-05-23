@@ -1,11 +1,15 @@
 {
   "name": "aceleradora-js-desafio",
   "version": "1.0.0",
-  "description": "",
+  "description": "- Crie um fork deste repositório\r  - Clone **_o seu fork_** para a sua máquina",
   "main": "index.js",
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0"
   }
 }
