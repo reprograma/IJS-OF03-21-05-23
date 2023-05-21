@@ -21,7 +21,8 @@ const HORAS_POR_FUNCIONALIDADE = {
   construcao_1_pagina: 8,
   integracao_mailchimp: 16,
   ssr: 8,
-  integracao_api_propria: 16
+  integracao_api_propria: 16,
+  validacao_design_system: 6
 }
 
 module.exports = {
