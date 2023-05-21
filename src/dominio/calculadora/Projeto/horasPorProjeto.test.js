@@ -1,15 +1,24 @@
-const {calcularValorPorHora, calcularHorasDeProjeto} = require('./horasPorProjeto');
+const { calcularHorasDeProjeto } = require('./horasPorProjeto');
+const {calcularHorasDeProjeto } = require('./valorProjeto')
 
-describe('calculo de horas totais para finalizar meu projeto', ()=>{
-    test('Dados um array com as funcionalidades de um projeto, deve retornar a soma das horas')
-    const funcionalidades = [
-        'segit addtup',
-        'responsividade',
-        'construçãoPagina',
-        'Formulários',
-        'ssr'
-    ]
-    const result = calcularHorasDeProjeto(funcionalidades);
-    
-    expect(result).toEqual(72)
+describe('Cálculo de horas totais para finalizar um projeto', () =>{
+    test('Dado um array com as funcionalidades desejadas no projeto, retornar a soma das horas das funcionalidades', () =>{
+        const funcionalidades = [
+            'setup',
+            'responsividade',
+            'construcao_1_pagina',
+            'construcao_1_pagina',
+            'construcao_1_pagina',
+            'formulario',
+            'ssr'
+        ]
+        const result = calcularHorasDeProjeto(funcionalidades);
+
+        expect(result).toEqual(72)
+    })
+})
+test('Calcular horas com funcionalidade que não existe', () =>{
+    const listaDeFuncionalidadesNaoExiste = ['formulario']
+
+    expect(calcularHorasDeProjeto(listaDeFuncionalidadesNaoExiste)).toBeNaN()
 })
