@@ -19,7 +19,7 @@ describe('valor do projeto', () => {
             'construcao_1_pagina',
             'construcao_1_pagina',
             'formulario',
-            'ssr'
+            'SSR'
         ];
         const valorHora = 70;
 
