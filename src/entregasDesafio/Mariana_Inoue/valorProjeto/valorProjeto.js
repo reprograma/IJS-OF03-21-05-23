@@ -1,10 +1,12 @@
-const { TAXAS_CONTRATUAIS_POR_PACOTE } = require('../constantes/constantes')
-const { calcularHorasDeProjeto } = require('./horasPorProjeto');
-const { calcularPacote } = require('./pacote');
+const { TAXAS_CONTRATUAIS_POR_PACOTE } = require('../../../dominio/calculadora/constantes/constantes')
+const { calcularHorasDeProjeto } = require('../../../dominio/calculadora/Projeto/horasPorProjeto');
+const { calcularPacote } = require('../../../dominio/calculadora/Projeto/pacote');
 
 const calcularValorBaseProjeto = (totalDeHorasPorProjeto, valorHora) => {
   return totalDeHorasPorProjeto * valorHora;
 };
+
+exports.calcularValorBaseProjeto = calcularValorBaseProjeto;
 
 const calcularValorTotalProjeto = (funcionalidades, valorHora) => {
   const totalDeHorasPorProjeto = calcularHorasDeProjeto(funcionalidades);
@@ -17,3 +19,5 @@ const calcularValorTotalProjeto = (funcionalidades, valorHora) => {
 }
 
 exports.calcularValorTotalProjeto = calcularValorTotalProjeto;
+
+

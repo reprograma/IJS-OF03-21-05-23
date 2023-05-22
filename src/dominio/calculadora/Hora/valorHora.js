@@ -11,3 +11,5 @@ const calcularValorPorHora = (rendaMensal) => {
 };
 
 exports.calcularValorPorHora = calcularValorPorHora;
+
+
