@@ -28,6 +28,8 @@ describe('valor do projeto', () => {
     })
 })*/
 
+
+
 /*****************************************************************************************/
 
 test('existe a letra Á na palavra BÁSICO', () => {
@@ -48,4 +50,18 @@ const funcionalidades = [
   
   test('a lista de funcionalidades tem a funcionalidade construcao_1_pagina?', () => {
     expect(funcionalidades).toContain('setup');
-  });
+});
+
+
+
+
+const  pacotePremium = 200
+
+    test('qual pacote tem mais horas', () => {
+        expect(pacotePremium).toBeGreaterThan(50);
+
+});
+
+
+   
+    
