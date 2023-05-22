@@ -1,5 +1,5 @@
-const {calcularValorTotalProjeto} = require('./valorProjeto')
-const pacote = require('./pacote')
+const {calcularValorTotalProjeto} = require('../../dominio/calculadora/Projeto/valorProjeto')
+const pacote = require('../../dominio/calculadora/Projeto/pacote')
 
 jest.mock('./pacote.js')
 

@@ -1,4 +1,4 @@
-const { calcularValorPorHora } = require('./valorHora')
+const { calcularValorPorHora } = require('../../dominio/calculadora/Hora/valorHora')
 
 test('retornar o valor arredondado correto dado o valor recebido por mês', () =>{
     expect(calcularValorPorHora(5000)).toBe(29)
