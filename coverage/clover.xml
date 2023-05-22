@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1684760908385" clover="3.2.0">
+  <project timestamp="1684760908385" name="All files">
+    <metrics statements="36" coveredstatements="36" conditionals="0" coveredconditionals="0" methods="9" coveredmethods="9" elements="45" coveredelements="45" complexity="0" loc="36" ncloc="36" packages="4" files="6" classes="6"/>
+    <package name="calculadora">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="soma.js" path="C:\Users\broberta\IJS-OF03-21-05-23\src\dominio\calculadora\soma.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="calculadora.Hora">
+      <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="valorHora.js" path="C:\Users\broberta\IJS-OF03-21-05-23\src\dominio\calculadora\Hora\valorHora.js">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="calculadora.Projeto">
+      <metrics statements="22" coveredstatements="22" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="7"/>
+      <file name="horasPorProjeto.js" path="C:\Users\broberta\IJS-OF03-21-05-23\src\dominio\calculadora\Projeto\horasPorProjeto.js">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="6" type="stmt"/>
+        <line num="5" count="30" type="stmt"/>
+        <line num="6" count="30" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+      </file>
+      <file name="pacote.js" path="C:\Users\broberta\IJS-OF03-21-05-23\src\dominio\calculadora\Projeto\pacote.js">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="5" count="5" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+      </file>
+      <file name="valorProjeto.js" path="C:\Users\broberta\IJS-OF03-21-05-23\src\dominio\calculadora\Projeto\valorProjeto.js">
+        <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="12" count="3" type="stmt"/>
+        <line num="14" count="3" type="stmt"/>
+        <line num="16" count="3" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="calculadora.constantes">
+      <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="constantes.js" path="C:\Users\broberta\IJS-OF03-21-05-23\src\dominio\calculadora\constantes\constantes.js">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="5" type="stmt"/>
+        <line num="2" count="5" type="stmt"/>
+        <line num="4" count="5" type="stmt"/>
+        <line num="10" count="5" type="stmt"/>
+        <line num="16" count="5" type="stmt"/>
+        <line num="27" count="5" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
