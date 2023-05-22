@@ -28,9 +28,7 @@ describe('valor do projeto', () => {
     })
 })*/
 
-
-
-/*********************************************************************/
+/*****************************************************************************************/
 
 test('existe a letra Á na palavra BÁSICO', () => {
     expect('BÁSICO').toMatch(/Á/);
@@ -41,3 +39,13 @@ test('existe a letra Á na palavra BÁSICO', () => {
 });
 
 
+const funcionalidades = [
+    'setup',
+    'responsividade',
+    'formulario',
+    'ssr'
+  ];
+  
+  test('a lista de funcionalidades tem a funcionalidade construcao_1_pagina?', () => {
+    expect(funcionalidades).toContain('setup');
+  });
