@@ -6,4 +6,10 @@ describe('valor por hora', () => {
         const result = calcularValorPorHora(valorPorMes);
         expect(result).toEqual(29);
     });
-})
+
+    test("Verificando se o valor não é nulo", () => {
+        const valorPorMes = 5000;
+        const result = calcularValorPorHora(valorPorMes);
+        expect(result).not.toBeNull();
+    }); 
+});

@@ -7,6 +7,7 @@ const calcularValorBaseProjeto = (totalDeHorasPorProjeto, valorHora) => {
 };
 
 const calcularValorTotalProjeto = (funcionalidades, valorHora) => {
+
   const totalDeHorasPorProjeto = calcularHorasDeProjeto(funcionalidades);
   
   const pacote = calcularPacote(totalDeHorasPorProjeto);
