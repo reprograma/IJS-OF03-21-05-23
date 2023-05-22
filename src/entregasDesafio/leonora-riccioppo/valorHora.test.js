@@ -1,4 +1,4 @@
-const { calcularValorPorHora} = require('./valorHora')
+const { calcularValorPorHora} = require('../../dominio/calculadora/Hora/valorHora')
 
 /*test('retornar valor arredondado correto dado o valor recebido', ()=>{
     expect(calcularValorPorHora(5000).toBe(10))
@@ -6,7 +6,7 @@ const { calcularValorPorHora} = require('./valorHora')
 */
 describe('Valor por hora', ()=>{
 
-    test('retorna o valor arredondado correo dado o valor recebido no mês', ()=>{
+    test('retorna o valor arredondado correto dado o valor recebido no mês', ()=>{
         const valorPorMes = 1300;
 
         const result = calcularValorPorHora(valorPorMes);

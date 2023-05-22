@@ -1,4 +1,4 @@
-const { calcularPacote } = require('./pacote');
+const { calcularPacote } = require('../../dominio/calculadora/Projeto/pacote');
 
 describe('Calcular pacote correto para cada projeto', () =>{
 

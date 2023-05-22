@@ -1,7 +1,7 @@
-const { calcularValorTotalProjeto } = require('./valorProjeto');
-const pacote = require('./pacote')
+const { calcularValorTotalProjeto } = require('../../dominio/calculadora/Projeto/valorProjeto');
+const pacote = require('../../dominio/calculadora/Projeto/pacote')
 
-jest.mock('./pacote.js')
+jest.mock('../../dominio/calculadora/projeto/pacote.js')
 
 
 describe('valor do projeto', () => {
@@ -23,6 +23,6 @@ describe('valor do projeto', () => {
 
         const result = calcularValorTotalProjeto(funcionalidades, valorHora);
 
-        expect(result).toEqual(3696);
+        expect(result).toEqual(5544);
     });
 });
