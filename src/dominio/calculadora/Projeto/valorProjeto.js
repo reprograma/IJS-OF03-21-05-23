@@ -17,3 +17,4 @@ const calcularValorTotalProjeto = (funcionalidades, valorHora) => {
 }
 
 exports.calcularValorTotalProjeto = calcularValorTotalProjeto;
+exports.calcularValorBaseProjeto = calcularValorBaseProjeto;
