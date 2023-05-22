@@ -125,7 +125,6 @@ describe('Verifica se o retorno é arredondado corretamente para baixo', () => {
     beforeEach(() => {
         pacote.calcularPacote.mockReturnValue('pacote_intermediario'); // taxa 1.2
     })
-// Vai restaurar o mock, para não dar conflito com o outro teste que está usando função Math.round
     afterEach(() => {
         jest.restoreAllMocks(); 
       });
