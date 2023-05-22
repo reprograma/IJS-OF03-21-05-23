@@ -10,7 +10,7 @@ describe('Cálculo de horas totais para finalizar um projeto', () => {
             'construcao_1_pagina',
             'construcao_1_pagina',
             'formulario',
-            'sair'
+            'ssr'
         ]
 
         const result = calcularHorasDeProjeto(funcionalidades);

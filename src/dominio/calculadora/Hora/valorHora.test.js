@@ -12,12 +12,12 @@ const { calcularValorPorHora } = require('./valorHora')
 
 describe('Funções para testa valor hora trabalhada', () =>{
     
-    const valorPorMes = 1300
+    const valorPorMes = 5000
 
     const result = calcularValorPorHora(valorPorMes)
     
     test("Retornar o valor arredondado correto dado o valor recebido por mês", () => {   
-    expect(result) . toEqual(8)
+    expect(result) . toEqual(29)
 })
 
 })
