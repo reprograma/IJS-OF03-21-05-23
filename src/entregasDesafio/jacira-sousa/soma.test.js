@@ -1,5 +1,5 @@
 
-const soma = require("./jacira-sousa/soma");
+const soma = require("./soma");
 
 
 test("A soma de 1 + 2 é 3",() => {
