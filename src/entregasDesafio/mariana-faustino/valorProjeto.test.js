@@ -16,7 +16,7 @@ jest.mock('../../dominio/calculadora/Projeto/pacote')
                 'construcao_1_pagina',
                 'construcao_1_pagina',
                 'formulario',
-                'ssr'
+                'ssr',
             ];
             const valorHora = 70;
     
@@ -24,4 +24,22 @@ jest.mock('../../dominio/calculadora/Projeto/pacote')
     
             expect(result).toEqual(5544)
         })
+        test('Lançar erro caso seja passada uma funcionalidade não existente na lista',
+        ()=>{
+            const funcionalidades = [
+                'setup',
+                'responsividade',
+                'construcao_1_pagina',
+                'construcao_1_pagina',
+                'construcao_1_pagina',
+                'formulario',
+                'ssr',
+                'funcionalidade_inexistente'
+            ];
+            const valorHora = 70;
+    
+            expect(()=> calcularValorTotalProjeto(funcionalidades, valorHora)).toThrow(Error)
+        })
 })
+
+
