@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1684715108923" clover="3.2.0">
-  <project timestamp="1684715108923" name="All files">
-    <metrics statements="36" coveredstatements="36" conditionals="0" coveredconditionals="0" methods="9" coveredmethods="9" elements="45" coveredelements="45" complexity="0" loc="36" ncloc="36" packages="5" files="6" classes="6"/>
+<coverage generated="1684718127099" clover="3.2.0">
+  <project timestamp="1684718127099" name="All files">
+    <metrics statements="34" coveredstatements="34" conditionals="0" coveredconditionals="0" methods="8" coveredmethods="8" elements="42" coveredelements="42" complexity="0" loc="34" ncloc="34" packages="4" files="5" classes="5"/>
     <package name="dominio.calculadora.Hora">
       <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="valorHora.js" path="C:\Users\Mari\Desktop\Entrega-Desafio-Testes-Mariana-Inoue\src\dominio\calculadora\Hora\valorHora.js">
         <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="4" count="2" type="stmt"/>
-        <line num="6" count="2" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
         <line num="7" count="1" type="stmt"/>
         <line num="8" count="1" type="stmt"/>
         <line num="10" count="1" type="stmt"/>
-        <line num="13" count="2" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
       </file>
     </package>
     <package name="dominio.calculadora.Projeto">
@@ -43,14 +43,6 @@
         <line num="10" count="4" type="stmt"/>
         <line num="16" count="4" type="stmt"/>
         <line num="27" count="4" type="stmt"/>
-      </file>
-    </package>
-    <package name="entregasDesafio.Mariana_Inoue">
-      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <file name="soma.js" path="C:\Users\Mari\Desktop\Entrega-Desafio-Testes-Mariana-Inoue\src\entregasDesafio\Mariana_Inoue\soma.js">
-        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="2" count="2" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
       </file>
     </package>
     <package name="entregasDesafio.Mariana_Inoue.valorProjeto">
