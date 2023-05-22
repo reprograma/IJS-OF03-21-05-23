@@ -14,12 +14,13 @@ describe('cálculo de horas totais para finalizar um projeto', () =>{
         const result = calcularHorasDeProjeto(funcionalidades)
         expect(result).toEqual(72)
     })
+    test('Lançar erro caso seja passada funcionalidade que não existe', () =>{
+        const listaDeFuncionalidadesQueNaoExistem = ['funcionalidade_inexistente']
+        expect(()=> calcularHorasDeProjeto(listaDeFuncionalidadesQueNaoExistem)).toThrow(Error)
+    })
+    
 })
 
 
-test('Calcular horas com funcionalidades que não existem', () =>{
-    const listaDeFuncionalidadesQueNaoExistem = ['formulario']
-    expect(calcularHorasDeProjeto(listaDeFuncionalidadesQueNaoExistem)).toBe(16)
-})
 
 
