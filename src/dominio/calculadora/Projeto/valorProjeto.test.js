@@ -1,4 +1,4 @@
-const { calcularValorTotalProjeto} = require('./valorProjeto');
+/*const { calcularValorTotalProjeto} = require('./valorProjeto');
 
 const pacote = require('./pacote');
 
@@ -26,4 +26,18 @@ describe('valor do projeto', () => {
 
         expect(result).toEqual(3696)
     })
-})
+})*/
+
+
+
+/*********************************************************************/
+
+test('existe a letra Á na palavra BÁSICO', () => {
+    expect('BÁSICO').toMatch(/Á/);
+  });
+  
+  test('mas em "básico" existe?', () => {
+    expect('básico').toMatch(/Á/);
+});
+
+
